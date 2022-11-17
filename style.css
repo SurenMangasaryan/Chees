@@ -1,0 +1,71 @@
+.chees-borders{
+    width: 485px;
+    height: 450px;
+    border: 2px solid black;
+    position: relative;
+    background-color: hsla(32, 67%, 74%, 0.411);
+}
+
+.chees-borders .top-leters{
+    position: absolute;
+    top: 10px;
+    transform: rotateX(180deg);
+}
+.chees-borders .top-leters span{
+    font-size: 24px;
+    margin-left: 36px;
+}
+.chees-borders .bottom-leters{
+    position: absolute;
+    bottom: 10px;
+}
+.chees-borders .bottom-leters span{
+    font-size: 24px;
+    margin-left: 36px;
+}
+
+
+.chees-borders .left-numbers{
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+}
+.chees-borders .left-numbers p{
+    font-size: 21px;
+}
+.chees-borders .right-numbers{
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    transform: rotateX(180deg);
+}
+.chees-borders .right-numbers p{
+    font-size: 21px;
+}
+
+
+
+.chees-board{
+    position: absolute;
+    width: 416px;
+    height: 364px;
+    /* border: 3px solid black; */
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.chees-blocks{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+}
+
+.black-blocks{
+    background-color: rgba(0, 146, 114, 0.644);
+}
+
+.burlywood-block{
+    background-color: hsla(32, 67%, 74%, 0.274);
+}
